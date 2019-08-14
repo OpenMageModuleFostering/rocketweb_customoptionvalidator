@@ -2,6 +2,14 @@
 class RocketWeb_CustomOptionValidator_Block_Rewrite_Adminhtml_Catalog_Product_Edit_Tab_Options_Option 
 		extends Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Options_Option {
 
+    public function __construct()
+    {
+        parent::__construct();
+        $this->setTemplate('rocketweb_cov/catalog/product/edit/options/option.phtml');
+        $this->setCanReadPrice(true);
+        $this->setCanEditPrice(true);
+    }
+
 	public function getOptionValues()
     {
     	parent::getOptionValues();

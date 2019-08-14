@@ -37,6 +37,15 @@
     		</rocketweb_cov_setup>
     	</resources>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <rocketweb_cov>
+                    <file>rocketweb_cov.xml</file>
+                </rocketweb_cov>
+            </updates>
+        </layout>
+    </frontend>
     <adminhtml>
     	<layout>
     		<updates>
