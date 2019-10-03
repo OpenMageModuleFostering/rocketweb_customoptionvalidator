@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/RocketWeb_CustomOptionValidator",
+    "name": "OpenMageModuleFostering\/RocketWeb_CustomOptionValidator",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Add validation to custom product options",
     "authors": [
-    {
-        "name": "RocketWeb",
-        "email": "dev@rocketweb.com"
-    }
-],
+        {
+            "name": "RocketWeb",
+            "email": "dev@rocketweb.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
